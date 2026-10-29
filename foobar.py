@@ -17,21 +17,6 @@ def is_prime(number: int) -> bool:
             
     return True
 
-def byThree(number: int) -> bool:
-    if number % 3 == 0:
-        return True
-    return False
-
-def byFive(number:int) -> bool:
-    if number % 5 == 0:
-        return True
-    return False
-
-def byBoth(number: int) -> bool:
-    if number % 5 ==0 and number % 3 == 0:
-        return True
-    return False
-
 def fooBarCheck(number) -> int | str | None:
     if is_prime(number):
         return None
